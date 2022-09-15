@@ -1,14 +1,16 @@
 1.What is a gitignore file and what should it include for a Java project? 
+Ans : The main purpose of a git ignore file is to tell Git which files to to keep untracked of.Git ignore files for java has many IDES,classpath,jar,war,target.
 
 
 
 2.What does fast-forward in git mean? 
-
-
-
+Ans : 
+It means that the movement of the main branch inorder to linearize the merging and it can also be told as linearizing by the main branch withourt need for an extra commit.
 
 3.Why should you have different branches? 
+Ans : In a project there will be many people and each will be working on different parts of code. So it is better to create his/her own branch and with each updation branches can get changed which will keep open the access to the previous versions of the code too.
 
 
 
 4.In a project how many remote Git repositories do you usually have? 
+Ans : One remote global git repository is what we usually have because it is then easy to merge the code if it is present in one single repository.
